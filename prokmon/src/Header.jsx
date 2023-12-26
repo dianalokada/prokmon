@@ -11,8 +11,8 @@ function Header() {
         <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
 
           <Stack spacing={1} direction='row' alignItems='center'>
-            <img src={logoImage} alt="Logo" width="40px" height="40px" />
             <Typography variant='h6'>KMon</Typography>
+            <img src={logoImage} alt="Logo" width="40px" height="40px" />
           </Stack>
 
           <Stack direction='row' alignItems='center' spacing={1}>
