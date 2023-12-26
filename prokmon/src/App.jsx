@@ -4,7 +4,6 @@ import About from './About.jsx'
 import Features from './Features.jsx'
 import Demo from './Demo.jsx'
 import Team from './Team.jsx'
-
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function App() {
@@ -52,11 +51,11 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Header />
-      <About />
-      <Features />
-      <Demo />
-      <Team />
+        <Header />
+        <About />
+        <Features />
+        <Demo />
+        <Team />
     </ThemeProvider>
   )
 }

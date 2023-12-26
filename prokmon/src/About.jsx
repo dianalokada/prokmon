@@ -4,7 +4,7 @@ import logoImage from './assets/kmon.png';
 function About() {
   
     return (
-        <Container>
+        <Container maxWidth="md" sx={{marginBottom: '30px'}}>
             <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '30px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> Introducing KMon</Typography>
             
             <Grid container spacing={2} alignItems="center" justifyContent="center">
@@ -18,15 +18,15 @@ function About() {
 
                     <Button variant='contained' sx={{
                         marginTop: '30px',
-                        backgroundColor: '#8e44ad',
+                        backgroundColor: '#bd5df1',
                         color: 'white',
                         borderRadius: '20px',
                         padding: '10px 30px',
                         width: '180px',
                         '&:hover': {
-                            backgroundColor: '#9b59b6',
+                            backgroundColor: '#bd5df1',
                         },
-                        boxShadow: '0px 0px 10px #bb99cc',
+                        boxShadow: '0px 0px 14px #bb99cc',
                         }}
                         >
                         Explore
