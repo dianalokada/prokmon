@@ -9,16 +9,22 @@ function Header() {
   // this is header
   return (
     
-      <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', width: '100%', padding: '30px' }}>
+      <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', width: '100%', padding: '30px'}}>
 
-        <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+        <Box  sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
 
           <Stack spacing={1} direction='row' alignItems='center'>
             <Typography variant='h6'>KMon</Typography>
             <img src={logoImage} alt="Logo" width="40px" height="40px" />
           </Stack>
 
-          <Stack direction='row' alignItems='center' spacing={1}>
+          <Stack position="fixed" direction='row' alignItems='center' spacing={1}
+          sx={{
+            right: 0, 
+            top: '30px', 
+            marginRight: '20px' 
+          }}
+          >
             <Link to="about-section" spy={true} smooth={true} offset={-70} duration={500}>
               <Button variant='text' disableRipple disableElevation sx={{ '&:hover': { backgroundColor: 'transparent' }}}>Home</Button>
             </Link>

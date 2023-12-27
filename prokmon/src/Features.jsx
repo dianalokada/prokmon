@@ -1,4 +1,10 @@
 import { Container, Grid, Card, CardContent, Typography, Button  } from '@mui/material'
+import SignalCellularAltIcon from '@mui/icons-material/SignalCellularAlt';
+import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+import TimelineIcon from '@mui/icons-material/Timeline';
+import SettingsApplicationsIcon from '@mui/icons-material/SettingsApplications';
+import ViewCompactIcon from '@mui/icons-material/ViewCompact';
+import HubIcon from '@mui/icons-material/Hub';
 
 function Features() {
   
@@ -41,12 +47,12 @@ function Features() {
                                     whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '25px'
+                                    marginBottom: '15px'
                                 }}
                                 >
                                     Cluster Managment
                                 </Typography>
-
+                                <HubIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
                                     Our Configurable Alerts feature is amazin hehehe
                                 </Typography>
@@ -80,12 +86,12 @@ function Features() {
                                     whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '25px'
+                                    marginBottom: '15px'
                                 }}
                                 >
                                     Customizable Metrics
                                 </Typography>
-
+                                <SignalCellularAltIcon sx={{marginBottom: '15px', width: '45px', height: '45px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
                                     Our Configurable Alerts feature is amazin hehehe
                                 </Typography>
@@ -120,12 +126,12 @@ function Features() {
                                     whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '25px'
+                                    marginBottom: '15px'
                                 }}
                                 >
                                     Configurable Alerts
                                 </Typography>
-
+                                <NotificationsActiveIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
                                     Our Configurable Alerts feature is amazin hehehe
                                 </Typography>
@@ -161,12 +167,12 @@ function Features() {
                                     whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '25px'
+                                    marginBottom: '15px'
                                 }}
                                 >
                                     Real Time Metrics
                                 </Typography>
-
+                                <TimelineIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
                                     Our Configurable Alerts feature is amazin hehehe
                                 </Typography>
@@ -200,12 +206,12 @@ function Features() {
                                     whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '25px'
+                                    marginBottom: '15px'
                                 }}
                                 >
                                     KRaft Compatibility
                                 </Typography>
-
+                                <ViewCompactIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
                                     Our Configurable Alerts feature is amazin hehehe
                                 </Typography>
@@ -240,12 +246,12 @@ function Features() {
                                     whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '25px'
+                                    marginBottom: '15px'
                                 }}
                                 >
-                                    Effortless Connection Setup
+                                    Effortless Setup 
                                 </Typography>
-
+                                <SettingsApplicationsIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
                                     Our Configurable Alerts feature is amazin hehehe
                                 </Typography>
