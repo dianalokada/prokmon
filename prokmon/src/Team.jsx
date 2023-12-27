@@ -10,22 +10,22 @@ import DianaImage from './assets/Diana.png';
 function Team() {
   
     return (
-        <Container >
-            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '30px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> Meet the Team </Typography>
+        <Container id="team-section" >
+            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '60px', marginBottom: '10px', fontWeight: 'bold', fontSize: '50px'}}> Meet the Team </Typography>
             
             <Container sx={{
                 //backgroundColor: '#1f1f2b', // Replace with the hexadecimal code of the color you like
                 paddingY: '80px', // Add some vertical padding
                 //borderRadius: '8px', // Optional: if you want rounded corners
                 textAlign: 'center', // Centers the text horizontally
-                marginTop: '30px',
+                marginTop: '10px',
                 marginBottom: '30px',
-                maxWidth: "sm"
+                maxWidth: "md"
             }}>
-                <Grid container spacing={2} justifyContent="center" >
+                <Grid container spacing={3} justifyContent="center" >
 
                     {/* First person */}
-                    <Grid item xs={12} sm={4} >
+                    <Grid item xs={12} sm={3} >
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
@@ -36,6 +36,21 @@ function Team() {
                             width: '150px', 
                             height: '230px',
                             overflow: 'hidden',
+                            transition: 'transform 0.3s ease-in-out',
+                                '&:hover': {
+                                    animation: 'pulse 2.5s infinite ease-in-out',
+                                },
+                                '@keyframes pulse': {
+                                  '0%': {
+                                    transform: 'scale(1)',
+                                  },
+                                  '50%': {
+                                    transform: 'scale(1.05)',
+                                  },
+                                  '100%': {
+                                    transform: 'scale()',
+                                  },
+                                },
                             }}
                         >
                             <img 
@@ -72,12 +87,8 @@ function Team() {
                     </Grid>
                     {/* end of first person */}
 
-
-
-
-
                     {/* Second person */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={12} sm={3}>
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
@@ -88,6 +99,21 @@ function Team() {
                             width: '150px', 
                             height: '230px',
                             overflow: 'hidden',
+                            transition: 'transform 0.3s ease-in-out',
+                                '&:hover': {
+                                    animation: 'pulse 2.5s infinite ease-in-out',
+                                },
+                                '@keyframes pulse': {
+                                  '0%': {
+                                    transform: 'scale(1)',
+                                  },
+                                  '50%': {
+                                    transform: 'scale(1.05)',
+                                  },
+                                  '100%': {
+                                    transform: 'scale()',
+                                  },
+                                },
                             }}
                         >
                             <img 
@@ -135,6 +161,21 @@ function Team() {
                             width: '150px', 
                             height: '230px',
                             overflow: 'hidden',
+                            transition: 'transform 0.3s ease-in-out',
+                                '&:hover': {
+                                    animation: 'pulse 2.5s infinite ease-in-out',
+                                },
+                                '@keyframes pulse': {
+                                  '0%': {
+                                    transform: 'scale(1)',
+                                  },
+                                  '50%': {
+                                    transform: 'scale(1.05)',
+                                  },
+                                  '100%': {
+                                    transform: 'scale()',
+                                  },
+                                },
                             }}
                         >
                             <img 
@@ -171,7 +212,8 @@ function Team() {
                     {/* end of third person */}
 
                     {/* start of fourth person */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item container xs={12} justifyContent="center" spacing={3}>
+                    <Grid item xs={12} sm={3}>
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
@@ -182,6 +224,21 @@ function Team() {
                             width: '150px', 
                             height: '230px',
                             overflow: 'hidden',
+                            transition: 'transform 0.3s ease-in-out',
+                                '&:hover': {
+                                    animation: 'pulse 2.5s infinite ease-in-out',
+                                },
+                                '@keyframes pulse': {
+                                  '0%': {
+                                    transform: 'scale(1)',
+                                  },
+                                  '50%': {
+                                    transform: 'scale(1.05)',
+                                  },
+                                  '100%': {
+                                    transform: 'scale()',
+                                  },
+                                },
                             }}
                         >
                             <img 
@@ -230,6 +287,21 @@ function Team() {
                             width: '150px', 
                             height: '230px',
                             overflow: 'hidden',
+                            transition: 'transform 0.3s ease-in-out',
+                                '&:hover': {
+                                    animation: 'pulse 2.5s infinite ease-in-out',
+                                },
+                                '@keyframes pulse': {
+                                  '0%': {
+                                    transform: 'scale(1)',
+                                  },
+                                  '50%': {
+                                    transform: 'scale(1.05)',
+                                  },
+                                  '100%': {
+                                    transform: 'scale()',
+                                  },
+                                },
                             }}
                         >
                             <img 
@@ -264,7 +336,7 @@ function Team() {
                         </Card>
                     </Grid>
                     {/* end of fifth person */}
-
+                    </Grid>
                 </Grid>
             </Container>
         </ Container>

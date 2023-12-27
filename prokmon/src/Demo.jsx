@@ -3,15 +3,15 @@ import { Container, Typography, Grid, Stack, Card, CardMedia, CardContent } from
 function Demo() {
   
     return (
-        <Container>
-            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '30px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> See KMon in Action </Typography>
+        <Container id="demo-section">
+            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '0px', marginBottom: '40px', fontWeight: 'bold', fontSize: '50px'}}> See KMon in Action </Typography>
             <Grid container spacing={2} alignItems="center" justifyContent="center">
 
                 {/* first grid */}
                 <Grid item xs={6} sx={{ textAlign: 'center' }}> 
 
                     <Stack spacing={2}>
-
+                    <Typography>Click to watch Live Demo </Typography>
                     </Stack>
 
                 </Grid>
