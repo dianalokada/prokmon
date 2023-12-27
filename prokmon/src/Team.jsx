@@ -10,7 +10,7 @@ import DianaImage from './assets/Diana.png';
 function Team() {
   
     return (
-        <Container>
+        <Container >
             <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '30px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> Meet the Team </Typography>
             
             <Container sx={{
@@ -20,24 +20,21 @@ function Team() {
                 textAlign: 'center', // Centers the text horizontally
                 marginTop: '30px',
                 marginBottom: '30px',
-                maxWidth: "md"
+                maxWidth: "sm"
             }}>
-                <Grid container spacing={4} justifyContent="center" >
-
-
-
+                <Grid container spacing={2} justifyContent="center" >
 
                     {/* First person */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={12} sm={4} >
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
                             borderRadius: '20px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
-                            minHeight: '120px',
+                            padding: '1.1rem', 
+                            width: '150px', 
+                            height: '230px',
                             overflow: 'hidden',
                             }}
                         >
@@ -45,9 +42,9 @@ function Team() {
                                 src={LucyImage} 
                                 alt="pic" 
                                 style = {{
-                                    width: '100%', 
+                                    width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '5px'
+                                    borderRadius: '100px'
                                 }} 
                             />
                             <Box sx = {{
@@ -56,7 +53,13 @@ function Team() {
                                 textAlign: 'center', 
                                 }}
                                 >
-                                <Typography variant='h6' component='h2' gutterBottom >
+                                <Typography variant='h6' component='h2' gutterBottom 
+                                sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                }}
+                                >
                                     Lucy Wu
                                 </Typography>
                                 
@@ -81,9 +84,9 @@ function Team() {
                             borderRadius: '20px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
-                            minHeight: '120px',
+                            padding: '1.1rem', 
+                            width: '150px', 
+                            height: '230px',
                             overflow: 'hidden',
                             }}
                         >
@@ -91,9 +94,9 @@ function Team() {
                                 src={HudsonImage} 
                                 alt="pic" 
                                 style = {{
-                                    width: '100%', 
+                                    width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '5px'
+                                    borderRadius: '100px'
                                 }} 
                             />
                             <Box sx = {{
@@ -102,7 +105,12 @@ function Team() {
                                 textAlign: 'center', 
                                 }}
                                 >
-                                <Typography variant='h6' component='h2' gutterBottom >
+                                <Typography variant='h6' component='h2' gutterBottom sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', // Prevents the text from wrapping
+                                    textAlign: 'center',
+                                }}
+                                >
                                     Hudson McLane
                                 </Typography>
                                 
@@ -123,9 +131,9 @@ function Team() {
                             borderRadius: '20px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
-                            minHeight: '120px',
+                            padding: '1.1rem', 
+                            width: '150px', 
+                            height: '230px',
                             overflow: 'hidden',
                             }}
                         >
@@ -133,9 +141,9 @@ function Team() {
                                 src={ElliotImage} 
                                 alt="pic" 
                                 style = {{
-                                    width: '100%', 
+                                    width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '5px'
+                                    borderRadius: '100px'
                                 }} 
                             />
                             <Box sx = {{
@@ -144,7 +152,12 @@ function Team() {
                                 textAlign: 'center', 
                                 }}
                                 >
-                                <Typography variant='h6' component='h2' gutterBottom >
+                                <Typography variant='h6' component='h2' gutterBottom sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                }}
+                                >
                                     Elliot Cho
                                 </Typography>
                                 
@@ -165,9 +178,9 @@ function Team() {
                             borderRadius: '20px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
-                            minHeight: '120px',
+                            padding: '1.1rem', 
+                            width: '150px', 
+                            height: '230px',
                             overflow: 'hidden',
                             }}
                         >
@@ -175,9 +188,9 @@ function Team() {
                                 src={DarrylImage} 
                                 alt="pic" 
                                 style = {{
-                                    width: '100%', 
+                                    width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '5px'
+                                    borderRadius: '100px'
                                 }} 
                             />
                             <Box sx = {{
@@ -186,13 +199,19 @@ function Team() {
                                 textAlign: 'center', 
                                 }}
                                 >
-                                <Typography variant='h6' component='h2' gutterBottom >
+                                <Typography variant='h6' component='h2' gutterBottom sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                }}
+                                
+                                >
                                     Darryl Joo
                                 </Typography>
                                 
                                 <Box sx = {{display: 'flex', justifyContent: 'center'}}>
                                     <IconButton component="a" href="https://github.com/hjdjoo" target="_blank" rel="noopener noreferrer" disableRipple disableElevation sx={{ padding: '0px', margin: '0 3px' }} ><GitHubIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
-                                    {/* <IconButton component="a" href="" target="_blank" rel="noopener noreferrer" disableRipple disableElevation sx={{ padding: '0px', margin: '0 3px' }} ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton> */}
+                                    {/* <IconButton component="a" href="https://github.com/hjdjoo" target="_blank" rel="noopener noreferrer" disableRipple disableElevation sx={{ padding: '0px', margin: '0 3px' }} ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton> */}
                                 </Box>
                                 </Box>
                         </Card>
@@ -207,9 +226,9 @@ function Team() {
                             borderRadius: '20px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
-                            minHeight: '120px',
+                            padding: '1.1rem', 
+                            width: '150px', 
+                            height: '230px',
                             overflow: 'hidden',
                             }}
                         >
@@ -217,9 +236,9 @@ function Team() {
                                 src={DianaImage} 
                                 alt="pic" 
                                 style = {{
-                                    width: '100%', 
+                                    width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '5px'
+                                    borderRadius: '100px'
                                 }} 
                             />
                             <Box sx = {{
@@ -228,7 +247,12 @@ function Team() {
                                 textAlign: 'center', 
                                 }}
                                 >
-                                <Typography variant='h6' component='h2' gutterBottom >
+                                <Typography variant='h6' component='h2' gutterBottom sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                }}
+                                >
                                     Diana Alokhina
                                 </Typography>
                                 

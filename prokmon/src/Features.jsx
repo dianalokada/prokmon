@@ -13,7 +13,7 @@ function Features() {
             maxWidth: "md"
         }}>
             <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '30px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> Features </Typography>
-                <Grid container spacing={4} justifyContent="center" >
+                <Grid container spacing={3} justifyContent="center" >
                     {/* First feature */}
                     <Grid item xs={12} sm={4}>
                         <Card sx={{ 
@@ -28,7 +28,15 @@ function Features() {
                             >
                             <CardContent>
 
-                                <Typography variant='h6' component='h2' gutterBottom>
+                                <Typography variant='h6' component='h2' gutterBottom
+                                sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                    fontWeight: 'bold',
+                                    marginBottom: '25px'
+                                }}
+                                >
                                     Configurable Alerts
                                 </Typography>
 
@@ -52,7 +60,15 @@ function Features() {
                              }}>
                             <CardContent>
 
-                                <Typography variant='h6' component='h2' gutterBottom>
+                                <Typography variant='h6' component='h2' gutterBottom
+                                sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                    fontWeight: 'bold',
+                                    marginBottom: '25px'
+                                }}
+                                >
                                     Configurable Alerts
                                 </Typography>
 
@@ -77,7 +93,15 @@ function Features() {
                              }}>
                             <CardContent>
 
-                                <Typography variant='h6' component='h2' gutterBottom>
+                                <Typography variant='h6' component='h2' gutterBottom
+                                sx= {{
+                                    fontSize: '1rem',
+                                    whiteSpace: 'nowrap', 
+                                    textAlign: 'center',
+                                    fontWeight: 'bold',
+                                    marginBottom: '25px'
+                                }}
+                                >
                                     Configurable Alerts
                                 </Typography>
 
