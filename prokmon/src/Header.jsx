@@ -6,6 +6,7 @@ import { Link } from 'react-scroll'
 
 function Header() {
   
+  // this is header
   return (
     
       <Container sx={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start', width: '100%', padding: '30px' }}>
