@@ -1,11 +1,11 @@
 import { Container, Typography,  Grid, Card, Box, IconButton } from '@mui/material'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import LucyImage from './assets/Lucy.png'; 
-import HudsonImage from './assets/Hudson.png';
-import ElliotImage from './assets/Elliot.png';
-import DarrylImage from './assets/Darryl.png';
-import DianaImage from './assets/Diana.png';
+import LucyImage from 'assets/Lucy.png'; 
+import HudsonImage from 'assets/Hudson-uPrrwpYm.png';
+import ElliotImage from 'assets/Diana-N2Tz6AiH.png';
+import DarrylImage from 'assets/Darryl-fd8XSf-Y.png';
+import DianaImage from 'assets/Diana-N2Tz6AiH.png';
 
 function Team() {
   
