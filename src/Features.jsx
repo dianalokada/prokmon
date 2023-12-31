@@ -9,27 +9,31 @@ import HubIcon from '@mui/icons-material/Hub';
 function Features() {
   
     return (
-        <Container id="features-section" sx={{
-            //backgroundColor: '#1f1f2b', // Replace with the hexadecimal code of the color you like
+        <Container id="features-section" 
+            sx={{
             paddingY: '80px', // Add some vertical padding
-            //borderRadius: '8px', // Optional: if you want rounded corners
             textAlign: 'center', // Centers the text horizontally
             marginTop: '30px',
             marginBottom: '30px',
             maxWidth: "md"
-        }}>
+            }}>
             <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '10px', marginBottom: '60px', fontWeight: 'bold', fontSize: '50px'}}> Features </Typography>
-                <Grid container spacing={2} justifyContent="center" >
+                
+                <Grid container spacing={2} justifyContent="center" style={{ display: 'flex' }}>
+                    
                     {/* First feature */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={6} sm={4}>
                         <Card sx={{ 
+                            flexGrow: 1,
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', color: 'white', 
+                            borderRadius: '10px', 
+                            color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
+                            padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
+                            minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
+                            height: { xs: '250px', sm: '200px' },
                             '&:hover': {
                                 animation: 'bounce 2s infinite',
                               },
@@ -44,32 +48,35 @@ function Features() {
                                 <Typography variant='h6' component='h2' gutterBottom
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
+                                    //whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
-                                    marginBottom: '15px'
+                                    marginBottom: '15px',
                                 }}
                                 >
                                     Cluster Managment
                                 </Typography>
                                 <HubIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Configurable Alerts feature is amazin hehehe
+                                    Our Cluster Managment feature is amazin hehehe
                                 </Typography>
 
                             </CardContent>
                         </Card>
                     </Grid>
                     {/* Second feature */}
-                    <Grid item xs={12} sm={4}>
+                    
+                    <Grid item xs={6} sm={4}>
                         <Card sx={{ 
+                            flexGrow: 1,
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', color: 'white', 
+                            borderRadius: '10px', color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
+                            padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
+                            minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
+                            height: { xs: '250px', sm: '200px' },
                             '&:hover': {
                                 animation: 'bounce 2s infinite',
                               },
@@ -83,7 +90,7 @@ function Features() {
                                 <Typography variant='h6' component='h2' gutterBottom
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
+                                   // whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
                                     marginBottom: '15px'
@@ -93,7 +100,7 @@ function Features() {
                                 </Typography>
                                 <SignalCellularAltIcon sx={{marginBottom: '15px', width: '45px', height: '45px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Configurable Alerts feature is amazin hehehe
+                                    Our Customizable Metrics feature is amazin hehehe
                                 </Typography>
 
                             </CardContent>
@@ -101,15 +108,17 @@ function Features() {
                     </Grid>
 
                     {/* Second feature */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={6} sm={4}>
                         <Card sx={{ 
+                            flexGrow: 1,
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', color: 'white', 
+                            borderRadius: '10px', color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
+                            padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
+                            minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px', 
+                            height: { xs: '250px', sm: '200px' },
                             '&:hover': {
                                 animation: 'bounce 2s infinite',
                               },
@@ -123,7 +132,7 @@ function Features() {
                                 <Typography variant='h6' component='h2' gutterBottom
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
+                                    //whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
                                     marginBottom: '15px'
@@ -141,15 +150,17 @@ function Features() {
                     </Grid>
 
                     {/* Fourth feature  */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={6} sm={4}>
                         <Card sx={{ 
+                            flexGrow: 1,
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', color: 'white', 
+                            borderRadius: '10px', color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
+                            padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
+                            minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
+                            height: { xs: '250px', sm: '200px' },
                             '&:hover': {
                                 animation: 'bounce 2s infinite',
                               },
@@ -164,7 +175,7 @@ function Features() {
                                 <Typography variant='h6' component='h2' gutterBottom
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
+                                    //whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
                                     marginBottom: '15px'
@@ -174,22 +185,24 @@ function Features() {
                                 </Typography>
                                 <TimelineIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Configurable Alerts feature is amazin hehehe
+                                    Our Real Time Metrics feature is amazin hehehe
                                 </Typography>
 
                             </CardContent>
                         </Card>
                     </Grid>
                     {/* Second feature */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={6} sm={4}>
                         <Card sx={{ 
+                            flexGrow: 1,
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', color: 'white', 
+                            borderRadius: '10px', color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
+                            padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
+                            minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
+                            height: { xs: '250px', sm: '200px' },
                             '&:hover': {
                                 animation: 'bounce 2s infinite',
                               },
@@ -203,7 +216,7 @@ function Features() {
                                 <Typography variant='h6' component='h2' gutterBottom
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
+                                    //whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
                                     marginBottom: '15px'
@@ -213,7 +226,7 @@ function Features() {
                                 </Typography>
                                 <ViewCompactIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Configurable Alerts feature is amazin hehehe
+                                    Our KRaft Compatibility feature is amazin hehehe
                                 </Typography>
 
                             </CardContent>
@@ -221,15 +234,17 @@ function Features() {
                     </Grid>
 
                     {/* Second feature */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={6} sm={4}>
                         <Card sx={{ 
+                            flexGrow: 1,
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', color: 'white', 
+                            borderRadius: '10px', color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '2rem', 
-                            minWidth: '150px', 
-                            minHeight: '120px', 
+                            padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
+                            minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
+                            minHeight: '120px',
+                            height: { xs: '250px', sm: '200px' },
                             '&:hover': {
                                 animation: 'bounce 2s infinite',
                               },
@@ -243,7 +258,7 @@ function Features() {
                                 <Typography variant='h6' component='h2' gutterBottom
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
+                                    //whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                     fontWeight: 'bold',
                                     marginBottom: '15px'
@@ -253,7 +268,7 @@ function Features() {
                                 </Typography>
                                 <SettingsApplicationsIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Configurable Alerts feature is amazin hehehe
+                                    Our Effortless Setup feature is amazin hehehe
                                 </Typography>
 
                             </CardContent>
@@ -261,7 +276,7 @@ function Features() {
                     </Grid>
 
                 </Grid>
-            <Button variant='contained' sx={{
+            <Button disableRipple disableElevation variant='contained' sx={{
                         marginTop: '50px',
                         backgroundColor: '#bd5df1',
                         color: 'white',

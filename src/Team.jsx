@@ -6,34 +6,44 @@ import HudsonImage from './assets/Hudson.png';
 import ElliotImage from './assets/Elliot.png';
 import DarrylImage from './assets/Darryl.png';
 import DianaImage from './assets/Diana.png';
+import MinionImage from './assets/MinionImage.webp';
+
 
 function Team() {
   
     return (
-        <Container id="team-section" >
-            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '60px', marginBottom: '10px', fontWeight: 'bold', fontSize: '50px'}}> Meet the Team </Typography>
-            
-            <Container sx={{
-                //backgroundColor: '#1f1f2b', // Replace with the hexadecimal code of the color you like
-                paddingY: '80px', // Add some vertical padding
-                //borderRadius: '8px', // Optional: if you want rounded corners
-                textAlign: 'center', // Centers the text horizontally
-                marginTop: '10px',
-                marginBottom: '30px',
-                maxWidth: "md"
-            }}>
-                <Grid container spacing={3} justifyContent="center" >
+        <Container id="team-section" 
+        sx= {{
+            paddingY: '80px', 
+            textAlign: 'center', 
+            marginBottom: '50px',
+            marginTop: '0px',
+            maxWidth: "md"
+        }}
+        >
+            <Typography variant='h5' component='h1' yeah
+                sx={{
+                    textAlign: 'center', 
+                    marginTop: '50px', 
+                    marginBottom: '60px', 
+                    fontWeight: 'bold', 
+                    fontSize: '50px'}}
+                    > 
+                Meet the Team 
+            </Typography>
+          
+                <Grid container spacing={4} justifyContent="center" style={{ display: 'flex' }}>
 
                     {/* First person */}
-                    <Grid item xs={12} sm={3} >
+                    <Grid item xs={6} sm={4}  lg={2} >
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', 
+                            borderRadius: '10px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
                             padding: '1.1rem', 
-                            width: '150px', 
+                            width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
                             overflow: 'hidden',
                             transition: 'transform 0.3s ease-in-out',
@@ -59,7 +69,10 @@ function Team() {
                                 style = {{
                                     width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '100px'
+                                    borderRadius: '100px',
+                                    display: 'block', 
+                                    marginLeft: 'auto', 
+                                    marginRight: 'auto', 
                                 }} 
                             />
                             <Box sx = {{
@@ -71,7 +84,6 @@ function Team() {
                                 <Typography variant='h6' component='h2' gutterBottom 
                                 sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                 }}
                                 >
@@ -88,15 +100,15 @@ function Team() {
                     {/* end of first person */}
 
                     {/* Second person */}
-                    <Grid item xs={12} sm={3}>
+                    <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', 
+                            borderRadius: '10px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
                             padding: '1.1rem', 
-                            width: '150px', 
+                            width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
                             overflow: 'hidden',
                             transition: 'transform 0.3s ease-in-out',
@@ -122,7 +134,10 @@ function Team() {
                                 style = {{
                                     width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '100px'
+                                    borderRadius: '100px',
+                                    display: 'block', 
+                                    marginLeft: 'auto', 
+                                    marginRight: 'auto', 
                                 }} 
                             />
                             <Box sx = {{
@@ -133,7 +148,6 @@ function Team() {
                                 >
                                 <Typography variant='h6' component='h2' gutterBottom sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', // Prevents the text from wrapping
                                     textAlign: 'center',
                                 }}
                                 >
@@ -150,15 +164,15 @@ function Team() {
                     {/* end of second person */}
 
                     {/* start of third person */}
-                    <Grid item xs={12} sm={4}>
+                    <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', 
+                            borderRadius: '10px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
                             padding: '1.1rem', 
-                            width: '150px', 
+                            width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
                             overflow: 'hidden',
                             transition: 'transform 0.3s ease-in-out',
@@ -184,7 +198,10 @@ function Team() {
                                 style = {{
                                     width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '100px'
+                                    borderRadius: '100px',
+                                    display: 'block', 
+                                    marginLeft: 'auto', 
+                                    marginRight: 'auto', 
                                 }} 
                             />
                             <Box sx = {{
@@ -195,7 +212,6 @@ function Team() {
                                 >
                                 <Typography variant='h6' component='h2' gutterBottom sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                 }}
                                 >
@@ -212,16 +228,15 @@ function Team() {
                     {/* end of third person */}
 
                     {/* start of fourth person */}
-                    <Grid item container xs={12} justifyContent="center" spacing={3}>
-                    <Grid item xs={12} sm={3}>
+                    <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', 
+                            borderRadius: '10px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
                             padding: '1.1rem', 
-                            width: '150px', 
+                            width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
                             overflow: 'hidden',
                             transition: 'transform 0.3s ease-in-out',
@@ -247,7 +262,10 @@ function Team() {
                                 style = {{
                                     width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '100px'
+                                    borderRadius: '100px',
+                                    display: 'block', 
+                                    marginLeft: 'auto', 
+                                    marginRight: 'auto', 
                                 }} 
                             />
                             <Box sx = {{
@@ -258,7 +276,6 @@ function Team() {
                                 >
                                 <Typography variant='h6' component='h2' gutterBottom sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                 }}
                                 
@@ -276,15 +293,15 @@ function Team() {
                     {/* end of fourth person */}
 
                     {/* start of fifth person */}
-                    <Grid item xs={12} sm={4}>
-                        <Card sx={{ 
+                    <Grid item xs={6} sm={4}  lg={2}>
+                        <Card sx={{  
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
-                            borderRadius: '20px', 
+                            borderRadius: '10px', 
                             color: 'white', 
                             boxShadow: '0px 0px 14px #bb99cc',
                             padding: '1.1rem', 
-                            width: '150px', 
+                            width: { xs: '130px', sm: '150px' },  
                             height: '230px',
                             overflow: 'hidden',
                             transition: 'transform 0.3s ease-in-out',
@@ -310,7 +327,10 @@ function Team() {
                                 style = {{
                                     width: '80%', 
                                     height: 'auto',
-                                    borderRadius: '100px'
+                                    borderRadius: '100px',
+                                    display: 'block', 
+                                    marginLeft: 'auto', 
+                                    marginRight: 'auto', 
                                 }} 
                             />
                             <Box sx = {{
@@ -321,7 +341,6 @@ function Team() {
                                 >
                                 <Typography variant='h6' component='h2' gutterBottom sx= {{
                                     fontSize: '1rem',
-                                    whiteSpace: 'nowrap', 
                                     textAlign: 'center',
                                 }}
                                 >
@@ -336,10 +355,78 @@ function Team() {
                         </Card>
                     </Grid>
                     {/* end of fifth person */}
+                    
+                    {/* start of sixth person - minion*/}
+                    <Grid item xs={6} sm={4}  lg={2}>
+                        <Card sx={{ 
+                            border: '1px solid #ffffff33', 
+                            backgroundColor: '#101418', 
+                            borderRadius: '10px', 
+                            color: 'white', 
+                            boxShadow: '0px 0px 14px #bb99cc',
+                            padding: '1.1rem', 
+                            width: { xs: '130px', sm: '150px' }, 
+                            height: '230px',
+                            overflow: 'hidden',
+                            transition: 'transform 0.3s ease-in-out',
+                                '&:hover': {
+                                    animation: 'pulse 2.5s infinite ease-in-out',
+                                },
+                                '@keyframes pulse': {
+                                  '0%': {
+                                    transform: 'scale(1)',
+                                  },
+                                  '50%': {
+                                    transform: 'scale(1.05)',
+                                  },
+                                  '100%': {
+                                    transform: 'scale()',
+                                  },
+                                },
+                            }}
+                        >
+                            <img 
+                                src={MinionImage} 
+                                alt="pic" 
+                                style = {{
+                                    width: '80%', 
+                                    height: 'auto',
+                                    borderRadius: '100px',
+                                    display: 'block', 
+                                    marginLeft: 'auto', 
+                                    marginRight: 'auto', 
+                                }} 
+                            />
+                            <Box sx = {{
+                                paddingY: '20px', 
+                                paddingX: '16px', 
+                                textAlign: 'center', 
+                                }}
+                                >
+                                <Typography variant='h6' component='h2' gutterBottom sx= {{
+                                    fontSize: '1rem',
+                                    textAlign: 'center',
+                                }}
+                                >
+                                     Minion
+                                </Typography>
+                                
+                                <Box sx = {{display: 'flex', justifyContent: 'center'}}>
+                                <Typography variant='h6' component='h2' gutterBottom sx= {{
+                                    fontSize: '1rem',
+                                    textAlign: 'center',
+                                }}
+                                >
+                                    Emotional Support
+                                </Typography>
+                                </Box>
+                                </Box>
+                        </Card>
                     </Grid>
-                </Grid>
+                    {/* end of sixth person - minion*/}
+
+                    </Grid>
             </Container>
-        </ Container>
     )
 }
 

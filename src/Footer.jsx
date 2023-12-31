@@ -4,7 +4,7 @@ function Footer() {
   
     return (
         
-        <Container maxWidth="lg">
+        <Container maxWidth="md">
         <Typography variant="subtitle1" align="center" color="white" component="p">
           © KMon 2023 | MIT License
           </Typography>

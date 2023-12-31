@@ -4,6 +4,8 @@
 
 body {
   color: white;
+  padding-right: 0 !important;
+  overflow: auto !important;
 }
 
 

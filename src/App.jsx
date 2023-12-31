@@ -5,13 +5,31 @@ import Features from './Features.jsx'
 import Demo from './Demo.jsx'
 import Team from './Team.jsx'
 import Footer from './Footer.jsx'
+import { BreakpointProvider } from './BreakpointContext';
+
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function App() {
 
   const theme = createTheme({
+    breakpoints: {
+      values: {
+        xs: 0, // mobile devices
+        sm: 600, // tablets
+        md: 960, // small laptop screens
+        lg: 1280, // desktops
+        xl: 1920, // large screens
+      },
+    },
     palette: {
+      type: 'dark',
+      background: {
+        default: '#101418',
+      },
+      text: {
+        primary: '#ffffff',
+      },
       // Define primary and secondary colors
       primary: {
         main: '#ffffff', // White color for primary text/buttons
@@ -45,6 +63,13 @@ function App() {
           },
         },
       },
+      MuiMenu: {
+        styleOverrides: {
+          paper: {
+            backgroundColor: '#101418', // Set background color for Menu
+          },
+        },
+      },
       // Other component overrides...
     },
     // ...other theme properties
@@ -52,14 +77,16 @@ function App() {
   
 
   return (
-    <ThemeProvider theme={theme}>
-        <Header />
-        <About />
-        <Features />
-        <Demo />
-        <Team />
-        <Footer />
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <BreakpointProvider>
+          <Header />
+          <About />
+          <Features />
+          <Demo />
+          <Team />
+          <Footer />
+        </BreakpointProvider>
+      </ThemeProvider>
   )
 }
 
