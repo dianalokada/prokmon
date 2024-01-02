@@ -6,7 +6,7 @@ import HudsonImage from './assets/Hudson.png';
 import ElliotImage from './assets/Elliot.png';
 import DarrylImage from './assets/Darryl.png';
 import DianaImage from './assets/Diana.png';
-import MinionImage from './assets/MinionImage.webp';
+// import MinionImage from './assets/MinionImage.webp';
 
 
 function Team() {
@@ -29,7 +29,7 @@ function Team() {
                     fontWeight: 'bold', 
                     fontSize: '50px'}}
                     > 
-                Meet the Team 
+                Meet Our Team 
             </Typography>
           
                 <Grid container spacing={4} justifyContent="center" style={{ display: 'flex' }}>
@@ -357,7 +357,7 @@ function Team() {
                     {/* end of fifth person */}
                     
                     {/* start of sixth person - minion*/}
-                    <Grid item xs={6} sm={4}  lg={2}>
+                    {/* <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
                             border: '1px solid #ffffff33', 
                             backgroundColor: '#101418', 
@@ -422,7 +422,7 @@ function Team() {
                                 </Box>
                                 </Box>
                         </Card>
-                    </Grid>
+                    </Grid> */}
                     {/* end of sixth person - minion*/}
 
                     </Grid>

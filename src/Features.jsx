@@ -58,7 +58,7 @@ function Features() {
                                 </Typography>
                                 <HubIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Cluster Managment feature is amazin hehehe
+                                    Easily manage your Kafka Cluster
                                 </Typography>
 
                             </CardContent>
@@ -100,7 +100,7 @@ function Features() {
                                 </Typography>
                                 <SignalCellularAltIcon sx={{marginBottom: '15px', width: '45px', height: '45px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Customizable Metrics feature is amazin hehehe
+                                    Customize which metrics you would like to monitor
                                 </Typography>
 
                             </CardContent>
@@ -142,7 +142,7 @@ function Features() {
                                 </Typography>
                                 <NotificationsActiveIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Configurable Alerts feature is amazin hehehe
+                                      Be informed about unhealthy metrics immediatly
                                 </Typography>
 
                             </CardContent>
@@ -185,7 +185,7 @@ function Features() {
                                 </Typography>
                                 <TimelineIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Real Time Metrics feature is amazin hehehe
+                                    Monitor necessary metrics instantaneously
                                 </Typography>
 
                             </CardContent>
@@ -226,7 +226,7 @@ function Features() {
                                 </Typography>
                                 <ViewCompactIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our KRaft Compatibility feature is amazin hehehe
+                                    Fully compatible for KRaft mode
                                 </Typography>
 
                             </CardContent>
@@ -268,7 +268,7 @@ function Features() {
                                 </Typography>
                                 <SettingsApplicationsIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Our Effortless Setup feature is amazin hehehe
+                                    Connect a cluster and start using the tool in seconds
                                 </Typography>
 
                             </CardContent>

@@ -2,11 +2,21 @@ import { Container, Typography, Grid, Stack, Button } from '@mui/material'
 import logoImage from './assets/kmon.png';
 
 function About() {
+
+    const scrollTo = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+    };
   
     return (
         <Container id="about-section"  sx={{marginBottom: '30px'}}>
-            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '50px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> 
-            Introducing KMon
+            <Typography variant='h5' component='h1' sx={{textAlign: 'center', marginTop: '20px', marginBottom: '30px', fontWeight: 'bold', fontSize: '50px'}}> 
+            About KMon
             </Typography>
             
             <Grid container spacing={2} alignItems="center" justifyContent="center">
@@ -18,8 +28,9 @@ function About() {
                         </Typography>
 
                     </Stack> 
-
-                    <Button disableRipple disableElevation variant='contained' sx={{
+                    <Button 
+                        onClick={() => scrollTo('features-section')}
+                        disableRipple disableElevation variant='contained' sx={{
                         display: 'block',
                         marginTop: '30px',
                         backgroundColor: '#bd5df1',

@@ -6,10 +6,11 @@ function Demo() {
     return (
         <Container id="demo-section"
         sx= {{
+            //backgroundColor: '#bd5df1',
             textAlign: 'center', 
             marginBottom: '0px',
             marginTop: '50px',
-            maxWidth: "md"
+            maxWidth: "md",
         }}
         >
             <Typography variant='h5' component='h1' 
@@ -35,7 +36,7 @@ function Demo() {
                         marginBottom: '50px'
                     }}
                     >
-                    <Typography >Click to watch Live Demo </Typography>
+                    <Typography >Click to watch</Typography>
 
                     <Button disableRipple disableElevation variant='contained' 
                         sx={{
@@ -54,7 +55,7 @@ function Demo() {
                         },
                         }}
                         >
-                        Demo 
+                         Demo 
                         < TrendingFlatIcon sx={{marginLeft: '8px'}}/>
                     </Button>
                     

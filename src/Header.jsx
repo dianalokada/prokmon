@@ -81,10 +81,10 @@ function Header() {
           <MenuItem disableRipple disableElevation onClick={handleClose}>Team</MenuItem>
         </Link>
         <MenuItem disableRipple disableElevation onClick={handleClose}>
-          <IconButton /*component="a" href="" target="_blank" rel="noopener noreferrer"*/ disableRipple disableElevation><GitHubIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
+          <IconButton component="a" href="https://github.com/oslabs-beta/KMon" target="_blank" rel="noopener noreferrer" disableRipple disableElevation><GitHubIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
         </MenuItem>
         <MenuItem disableRipple disableElevation onClick={handleClose}>
-          <IconButton /*component="a" href="" target="_blank" rel="noopener noreferrer"*/ disableRipple disableElevation ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
+          <IconButton component="a" href="https://www.linkedin.com/company/kafkamonitoring" target="_blank" rel="noopener noreferrer" disableRipple disableElevation ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
         </MenuItem>
       </Menu>
       </Stack>
@@ -123,8 +123,8 @@ function Header() {
             <Link to="team-section" spy={true} smooth={true} offset={-70} duration={500}>
               <Button variant='text' disableRipple disableElevation sx={{ '&:hover': { backgroundColor: 'transparent' }}}>Team</Button>
             </Link>
-            <IconButton /*component="a" href="" target="_blank" rel="noopener noreferrer"*/ disableRipple disableElevation><GitHubIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
-            <IconButton /*component="a" href="" target="_blank" rel="noopener noreferrer"*/ disableRipple disableElevation ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
+            <IconButton component="a" href="https://github.com/oslabs-beta/KMon" target="_blank" rel="noopener noreferrer" disableRipple disableElevation><GitHubIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
+            <IconButton component="a" href="https://www.linkedin.com/company/kafkamonitoring" target="_blank" rel="noopener noreferrer" disableRipple disableElevation ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
           </Stack>
         </Box>
       </Container>
