@@ -24,7 +24,7 @@ function About() {
                     <Stack spacing={2}>  
                         
                         <Typography variant='body1' sx={{ textAlign: 'left'}}>
-                            KMon is an open source Kafka cluster monitoring tool with customization for metrics visualizations and configurable alerts that is fully compatible with KRaft.
+                            KMon is an Open Source Kafka cluster monitoring tool with customization for metrics visualizations and configurable alerts that is fully compatible with KRaft.
                         </Typography>
 
                     </Stack> 

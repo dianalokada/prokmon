@@ -11,8 +11,8 @@ function Features() {
     return (
         <Container id="features-section" 
             sx={{
-            paddingY: '80px', // Add some vertical padding
-            textAlign: 'center', // Centers the text horizontally
+            paddingY: '80px', 
+            textAlign: 'center', 
             marginTop: '30px',
             marginBottom: '30px',
             maxWidth: "md"
@@ -268,7 +268,7 @@ function Features() {
                                 </Typography>
                                 <SettingsApplicationsIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
                                 <Typography variant='body2'>
-                                    Connect a cluster and start using the tool in seconds
+                                    Connect to a cluster and start using the tool in seconds
                                 </Typography>
 
                             </CardContent>
