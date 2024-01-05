@@ -156,7 +156,7 @@ function Team() {
                                 
                                 <Box sx = {{display: 'flex', justifyContent: 'center'}}>
                                     <IconButton component="a" href="https://github.com/redferret1" target="_blank" rel="noopener noreferrer" disableRipple disableElevation sx={{ padding: '0px', margin: '0 3px' }} ><GitHubIcon sx={{ width: '30px', height: '30px' }} /></IconButton>
-                                    {/* <IconButton component="a" href="" target="_blank" rel="noopener noreferrer" disableRipple disableElevation sx={{ padding: '0px', margin: '0 3px' }} ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton> */}
+                                     <IconButton component="a" href="https://www.linkedin.com/in/hudson-mclane-7743792a8/" target="_blank" rel="noopener noreferrer" disableRipple disableElevation sx={{ padding: '0px', margin: '0 3px' }} ><LinkedInIcon sx={{ width: '30px', height: '30px' }} /></IconButton> 
                                 </Box>
                                 </Box>
                         </Card>
