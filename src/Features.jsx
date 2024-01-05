@@ -25,11 +25,11 @@ function Features() {
                     <Grid item xs={6} sm={4}>
                         <Card sx={{ 
                             flexGrow: 1,
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', 
                             color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
                             minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
@@ -56,7 +56,7 @@ function Features() {
                                 >
                                     Cluster Managment
                                 </Typography>
-                                <HubIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
+                                <HubIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#6874E8'}}/>
                                 <Typography variant='body2'>
                                     Easily manage your Kafka Cluster
                                 </Typography>
@@ -69,10 +69,10 @@ function Features() {
                     <Grid item xs={6} sm={4}>
                         <Card sx={{ 
                             flexGrow: 1,
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
                             minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
@@ -98,7 +98,7 @@ function Features() {
                                 >
                                     Customizable Metrics
                                 </Typography>
-                                <SignalCellularAltIcon sx={{marginBottom: '15px', width: '45px', height: '45px', color: '#bd5df1'}}/>
+                                <SignalCellularAltIcon sx={{marginBottom: '15px', width: '45px', height: '45px', color: '#6874E8'}}/>
                                 <Typography variant='body2'>
                                     Customize which metrics you would like to monitor
                                 </Typography>
@@ -111,10 +111,10 @@ function Features() {
                     <Grid item xs={6} sm={4}>
                         <Card sx={{ 
                             flexGrow: 1,
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
                             minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px', 
@@ -140,7 +140,7 @@ function Features() {
                                 >
                                     Configurable Alerts
                                 </Typography>
-                                <NotificationsActiveIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
+                                <NotificationsActiveIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#6874E8'}}/>
                                 <Typography variant='body2'>
                                       Be informed about unhealthy metrics immediatly
                                 </Typography>
@@ -153,10 +153,10 @@ function Features() {
                     <Grid item xs={6} sm={4}>
                         <Card sx={{ 
                             flexGrow: 1,
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
                             minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
@@ -183,7 +183,7 @@ function Features() {
                                 >
                                     Real Time Metrics
                                 </Typography>
-                                <TimelineIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
+                                <TimelineIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#6874E8'}}/>
                                 <Typography variant='body2'>
                                     Monitor necessary metrics instantaneously
                                 </Typography>
@@ -195,10 +195,10 @@ function Features() {
                     <Grid item xs={6} sm={4}>
                         <Card sx={{ 
                             flexGrow: 1,
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
                             minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
@@ -224,7 +224,7 @@ function Features() {
                                 >
                                     KRaft Compatibility
                                 </Typography>
-                                <ViewCompactIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
+                                <ViewCompactIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#6874E8'}}/>
                                 <Typography variant='body2'>
                                     Fully compatible for KRaft mode
                                 </Typography>
@@ -237,10 +237,10 @@ function Features() {
                     <Grid item xs={6} sm={4}>
                         <Card sx={{ 
                             flexGrow: 1,
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: { xs: '1rem', sm: '2rem' }, // Responsive padding
                             minWidth: { xs: '100px', sm: '150px' }, // Responsive minimum width
                             minHeight: '120px',
@@ -266,7 +266,7 @@ function Features() {
                                 >
                                     Effortless Setup 
                                 </Typography>
-                                <SettingsApplicationsIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#bd5df1'}}/>
+                                <SettingsApplicationsIcon sx={{marginBottom: '15px', width: '40px', height: '40px', color: '#6874E8'}}/>
                                 <Typography variant='body2'>
                                     Connect to a cluster and start using the tool in seconds
                                 </Typography>
@@ -278,15 +278,15 @@ function Features() {
                 </Grid>
             <Button disableRipple disableElevation variant='contained' sx={{
                         marginTop: '50px',
-                        backgroundColor: '#bd5df1',
+                        backgroundColor: '#6874E8',
                         color: 'white',
                         borderRadius: '20px',
                         padding: '10px 30px',
                         width: '300px',
                         '&:hover': {
-                            backgroundColor: '#bd5df1',
+                            backgroundColor: '#5563DF',
                         },
-                        boxShadow: '0px 0px 14px #bb99cc',
+                        //boxShadow: '0px 0px 14px #bb99cc',
                         }}
                         >
                         Read About Us on Medium

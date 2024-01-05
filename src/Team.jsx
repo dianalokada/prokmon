@@ -6,7 +6,7 @@ import HudsonImage from './assets/Hudson.png';
 import ElliotImage from './assets/Elliot.png';
 import DarrylImage from './assets/Darryl.png';
 import DianaImage from './assets/Diana.png';
-// import MinionImage from './assets/MinionImage.webp';
+// import SuperToroid from './assets/SuperToroid.png'; // Make sure the path is correct
 
 
 function Team() {
@@ -37,11 +37,11 @@ function Team() {
                     {/* First person */}
                     <Grid item xs={6} sm={4}  lg={2} >
                         <Card sx={{ 
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', 
                             color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: '1.1rem', 
                             width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
@@ -102,11 +102,11 @@ function Team() {
                     {/* Second person */}
                     <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', 
                             color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: '1.1rem', 
                             width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
@@ -166,11 +166,11 @@ function Team() {
                     {/* start of third person */}
                     <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', 
                             color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #bb99cc',
                             padding: '1.1rem', 
                             width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
@@ -230,11 +230,11 @@ function Team() {
                     {/* start of fourth person */}
                     <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{ 
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', 
                             color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #6874E8',
                             padding: '1.1rem', 
                             width: { xs: '130px', sm: '150px' }, 
                             height: '230px',
@@ -295,11 +295,11 @@ function Team() {
                     {/* start of fifth person */}
                     <Grid item xs={6} sm={4}  lg={2}>
                         <Card sx={{  
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
+                            border: '1px solid white', 
+                            backgroundColor: 'black', 
                             borderRadius: '10px', 
                             color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
+                            //boxShadow: '0px 0px 12px #6874E8',
                             padding: '1.1rem', 
                             width: { xs: '130px', sm: '150px' },  
                             height: '230px',
@@ -355,75 +355,6 @@ function Team() {
                         </Card>
                     </Grid>
                     {/* end of fifth person */}
-                    
-                    {/* start of sixth person - minion*/}
-                    {/* <Grid item xs={6} sm={4}  lg={2}>
-                        <Card sx={{ 
-                            border: '1px solid #ffffff33', 
-                            backgroundColor: '#101418', 
-                            borderRadius: '10px', 
-                            color: 'white', 
-                            boxShadow: '0px 0px 14px #bb99cc',
-                            padding: '1.1rem', 
-                            width: { xs: '130px', sm: '150px' }, 
-                            height: '230px',
-                            overflow: 'hidden',
-                            transition: 'transform 0.3s ease-in-out',
-                                '&:hover': {
-                                    animation: 'pulse 2.5s infinite ease-in-out',
-                                },
-                                '@keyframes pulse': {
-                                  '0%': {
-                                    transform: 'scale(1)',
-                                  },
-                                  '50%': {
-                                    transform: 'scale(1.05)',
-                                  },
-                                  '100%': {
-                                    transform: 'scale()',
-                                  },
-                                },
-                            }}
-                        >
-                            <img 
-                                src={MinionImage} 
-                                alt="pic" 
-                                style = {{
-                                    width: '80%', 
-                                    height: 'auto',
-                                    borderRadius: '100px',
-                                    display: 'block', 
-                                    marginLeft: 'auto', 
-                                    marginRight: 'auto', 
-                                }} 
-                            />
-                            <Box sx = {{
-                                paddingY: '20px', 
-                                paddingX: '16px', 
-                                textAlign: 'center', 
-                                }}
-                                >
-                                <Typography variant='h6' component='h2' gutterBottom sx= {{
-                                    fontSize: '1rem',
-                                    textAlign: 'center',
-                                }}
-                                >
-                                     Minion
-                                </Typography>
-                                
-                                <Box sx = {{display: 'flex', justifyContent: 'center'}}>
-                                <Typography variant='h6' component='h2' gutterBottom sx= {{
-                                    fontSize: '1rem',
-                                    textAlign: 'center',
-                                }}
-                                >
-                                    Emotional Support
-                                </Typography>
-                                </Box>
-                                </Box>
-                        </Card>
-                    </Grid> */}
-                    {/* end of sixth person - minion*/}
 
                     </Grid>
             </Container>

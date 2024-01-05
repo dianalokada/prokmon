@@ -11,7 +11,7 @@ import {
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
-import logoImage from './assets/kmon.png';
+import logoImage from './assets/Group 9.png';
 import { Link } from 'react-scroll'
 import { useBreakpoint } from './BreakpointContext';
 import * as React from 'react';

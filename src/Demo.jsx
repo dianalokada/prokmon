@@ -42,16 +42,16 @@ function Demo() {
                         sx={{
                         marginTop: '30px',
                         marginBottom: '30px', 
-                        backgroundColor: '#bd5df1',
+                        backgroundColor: '#6874E8',
                         color: 'white',
                         borderRadius: '20px', 
                         padding: '10px 5vw',
                         width: '80%',
                         maxWidth: '180px',
-                        boxShadow: '0px 0px 14px #bb99cc',
+                        //boxShadow: '0px 0px 14px #bb99cc',
                         transition: 'transform 0.3s ease-in-out',
                             '&:hover': {
-                                backgroundColor: '#bd5df1',
+                                backgroundColor: '#5563DF',
                         },
                         }}
                         >
