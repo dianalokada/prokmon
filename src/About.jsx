@@ -1,5 +1,5 @@
 import { Container, Typography, Grid, Stack, Button, Box } from "@mui/material";
-import logoImage from "./assets/Group 8.png";
+import logoImage from "./assets/logo-6.png";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useTheme } from "@mui/material/styles";
 
